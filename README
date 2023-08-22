@@ -1,0 +1,41 @@
+CREATE DATABASE ESCOLA;
+USE ESCOLA;
+
+CREATE TABLE ALUNO(
+NOME VARCHAR(200),
+CPF varchar(14),
+DATA_NASCIMENTO DATE,
+ID_MATRICULA varchar(60),
+ID_CURSO int
+);
+
+SELECT * FROM ALUNO;
+
+INSERT INTO ALUNO (NOME, CPF, DATA_NASCIMENTO, ID_MATRICULA, ID_CURSO) 
+VALUES ("Kokimoto" , "036.220.150-00", "1700-08-29", "0001P548OO", 2);
+
+INSERT INTO ALUNO (NOME, CPF, DATA_NASCIMENTO, ID_MATRICULA, ID_CURSO) 
+VALUES ("Cirilo" , "100.000.020-00", "1999-08-29", "0001P548O22", 3);
+
+INSERT INTO ALUNO (NOME, CPF, DATA_NASCIMENTO, ID_MATRICULA, ID_CURSO) 
+VALUES ("Maria Joaquina" , "100.110.020-00", "2001-08-02", "0001P51111", 1);
+
+ALTER TABLE ALUNO ADD PRIMARY KEY(CPF);
+
+
+create table curso(
+ID_CURSO int,
+NOME_CURSO VARCHAR(60),
+VALOR FLOAT,
+SALA varchar(400)
+);
+ 
+
+INSERT INTO CURSO (ID_CURSO ,NOME_CURSO, VALOR, SALA) VALUES (1,"Medicina",14005, "sala 14 (segunda), laboratorio xxii(Terca), sala 5(Quarta), laboratorio xii(Quinta), sala 14 (sexta)");
+INSERT INTO CURSO (ID_CURSO, NOME_CURSO, VALOR, SALA) VALUES (2,"Odontologia", 6000,  "sala 11 (segunda), laboratorio x(Terca), sala 8(Quarta), sala 10 (Quinta), sala 10 (sexta)");
+INSERT INTO CURSO (ID_CURSO, NOME_CURSO, VALOR, SALA) VALUES (3, "Engenharia Civil", 2400,  "sala 2(segunda), sala 2(Terca), sala 2(Quarta), sala 1(Quinta), sala 4 (sexta)");
+
+ALTER TABLE CURSO ADD PRIMARY KEY(ID_CURSO);
+
+SELECT * FROM ALUNO;
+SELECT * FROM CURSO;

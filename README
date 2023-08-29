@@ -57,3 +57,5 @@ select * from curso;
 select * from aluno order by nome;
 
 insert  into aluno (nome, cpf, data_nascimento, id_matricula, id_curso) values ("Jaime Palillo", "123.321.455-13", "1500-01-02", "0002P54330", 1);
+
+select nome_curso as nome, case when(valor < 3000) then "barato"  when (valor > 5000 and valor < 10000) then "em conta" when (valor >13000) then "caro" end as estado from curso;

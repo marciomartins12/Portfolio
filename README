@@ -47,3 +47,13 @@ SELECT * FROM CURSO WHERE NOME_CURSO = "MEDICINA" OR NOME_CURSO = "ODONTOLOGIA";
 SELECT B.NOME, A.NOME_CURSO FROM CURSO AS A INNER JOIN ALUNO AS B ON A.ID_CURSO =  B.ID_CURSO;
 
 SELECT  B.CPF, B.NOME, A.NOME_CURSO, A.VALOR FROM CURSO AS A INNER JOIN ALUNO AS B ON A.ID_CURSO =  B.ID_CURSO WHERE A.NOME_CURSO= "oDONTOLOGIA";
+
+use aluno;
+select NOME_CURSO AS NOME, ID_CURSO,  SUM(VALOR) AS VALOR_TOTAL from curso GROUP BY ID_CURSO, NOME;
+
+select nome AS nomeDoAluno, cpf from aluno group by nome, cpf order by nome; 
+
+select * from curso;
+select * from aluno order by nome;
+
+insert  into aluno (nome, cpf, data_nascimento, id_matricula, id_curso) values ("Jaime Palillo", "123.321.455-13", "1500-01-02", "0002P54330", 1);

@@ -59,3 +59,59 @@ select * from aluno order by nome;
 insert  into aluno (nome, cpf, data_nascimento, id_matricula, id_curso) values ("Jaime Palillo", "123.321.455-13", "1500-01-02", "0002P54330", 1);
 
 select nome_curso as nome, case when(valor < 3000) then "barato"  when (valor > 5000 and valor < 10000) then "em conta" when (valor >13000) then "caro" end as estado from curso;
+
+
+CREATE DATABASE IF NOT EXISTS turismo;
+
+USE turismo;
+
+CREATE TABLE pais(
+    id INT PRIMARY KEY auto_increment,
+    nome_pais VARCHAR(40) NOT NULL,
+    idioma VARCHAR(20),
+    moeda VARCHAR(10),
+    capital VARCHAR(20)
+);
+
+CREATE TABLE estado (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    nome_estado VARCHAR(255) NOT NULL,
+    populacao INT,
+    governador VARCHAR(110),
+    area_km2 DECIMAL(10, 2),
+	fk_pais_id INT
+);
+ALTER TABLE estado ADD FOREIGN KEY (fk_pais_id) REFERENCES pais(id);
+
+CREATE TABLE cidade (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    nome_cidade VARCHAR(255) NOT NULL,
+    populacao INT,
+    fundacao DATE,
+    clima VARCHAR(50),
+	FK_estado_id INT
+);
+ALTER TABLE cidade ADD FOREIGN KEY (FK_estado_id) REFERENCES estado(id);
+
+CREATE TABLE ponto_turistico(
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    nome_ponto_turistico VARCHAR(255) NOT NULL,
+     custo_entrada DECIMAL(10, 2),
+    descricao_do_local TEXT,
+    tipo_atracao VARCHAR(50),
+    FK_cidade_id INT
+    
+);
+ALTER TABLE ponto_turistico ADD FOREIGN KEY (fK_cidade_id) REFERENCES cidade(id);
+
+CREATE TABLE coordenada (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    latitude DECIMAL(10, 8) NOT NULL,
+    longitude DECIMAL(11, 8) NOT NULL,
+    descricao VARCHAR(255),
+    altitude DECIMAL(8, 2),
+	fk_ponto_turismo_id INT
+);
+ALTER TABLE coordenada ADD FOREIGN KEY (fk_ponto_turismo_id) REFERENCES ponto_turistico(id);
+
+.

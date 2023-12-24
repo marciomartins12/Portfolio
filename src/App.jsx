@@ -1,4 +1,3 @@
-import ParticlesBackground from "./Components/BackgroundParticles/Particles";
 
 function App() {
 

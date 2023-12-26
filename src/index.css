@@ -31,11 +31,13 @@ footer, header, hgroup, menu, nav, section {
 :root{
  --cor-de-fundo: #000A2D;
  --cor-secundaria: #0E0B22;
+ --cor-terci: #050218;
+ --cor-text : #B8C6FF;
 }
 body {
 	background-color: var(--cor-de-fundo);
 	line-height: 1;
-	color: white;
+	color: var(--cor-text);
 }
 ol, ul {
 	list-style: none;

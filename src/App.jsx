@@ -1,4 +1,5 @@
 import PaginaPrincipal from "./Componets/PagePrincipal/PageMain";
+import Projects from "./Componets/Projects/Projects";
 
 function App() {
  
@@ -6,7 +7,7 @@ function App() {
 <>
 <PaginaPrincipal/>
 
-aaaaaaaa
+<Projects/>
 </>
   );
 };

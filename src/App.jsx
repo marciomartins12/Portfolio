@@ -1,9 +1,10 @@
+import PaginaPrincipal from "./Componets/PagePrincipal/PageMain";
 
 function App() {
  
    return(
 <>
-Portfolio
+<PaginaPrincipal/>
 </>
   );
 };

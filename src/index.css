@@ -28,7 +28,11 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+:root{
+ --cor-de-fundo: #04144D;
+}
 body {
+	background-color: var(--cor-de-fundo);
 	line-height: 1;
 }
 ol, ul {

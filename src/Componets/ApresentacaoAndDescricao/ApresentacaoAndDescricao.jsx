@@ -5,11 +5,10 @@ const ApresentacaoAndDescricao = () => {
         <section className={Style.container}>
             <div>
                 <div className={Style.apresentacao}>
-                    <h2>Desenvolvedor Web Full-Stack em Formação</h2>
+                    <h2>Desenvolvedor Web Full-Stack em Formação <img src="/src/assets/icons/lupadev.png" alt="lupa" /></h2>
                     <p>Olá! Sou Márcio, um apaixonado por tecnologia e
                         estudante de Ciência da Computação. Estou com foco no
-                        desenvolvimento web por enquanto.
-                        Comprometido com o crescimento contínuo, buscando oportunidades de aprendizado e desenvolvimento.</p>
+                        desenvolvimento web por enquanto.</p>
                 </div>
                 <div className={Style.habilidades}>
                     <h3>Habilidades:</h3>

@@ -1,3 +1,4 @@
+
 .container{
     margin-top: .90em;
     display: grid;
@@ -6,13 +7,22 @@
 .apresentacao{
     margin-left: 1.5em;
     padding: 1.5em;
+    width: 90%;
     border-radius: 1em;
     background-color: var(--cor-secundaria);
-    width: 80%;
 }
 .apresentacao h2{
-    font-size: 2em;
+    display: flex ;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1em;
+    font-size: 2.5em;
     margin-bottom: 1em;
+    font-family: var(--font-nabla);
+    
+}
+.apresentacao p{
+    font-size: 1.75em;
 }
 .habilidades{
     margin-left: 1.5em;
@@ -21,7 +31,7 @@
     width: 60%;
     margin-top: 1em;
     background-color: var(--cor-secundaria);
-
+    
 }
 .habilidades div{
     margin-top: 0.8em;

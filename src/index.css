@@ -1,8 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Handjet&family=Nabla&family=Pixelify+Sans&display=swap');
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -33,8 +29,11 @@ footer, header, hgroup, menu, nav, section {
  --cor-secundaria: #0E0B22;
  --cor-terci: #050218;
  --cor-text : #B8C6FF;
+ --font-nabla: 'nabla';	
+ --font-DynaPuff: DynaPuff;
 }
 body {
+	font-family: var(--font-DynaPuff);
 	background-color: var(--cor-de-fundo);
 	line-height: 1;
 	color: var(--cor-text);

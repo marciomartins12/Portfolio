@@ -11,6 +11,8 @@
     justify-content: space-around;
 }
 .cabecalhoPageProjects h3{
+    font-size: 2em;
+    border-radius: 1em;
     background-color: var(--cor-secundaria);
     padding: 1em;
     font-family: var(--font-nabla);
@@ -18,6 +20,8 @@
 .cabecalhoPageProjects p{
     background-color: var(--cor-secundaria);
     padding: 1em;
+    font-size:2em;
+    border-radius: 1em;
     
 }
 .cabecalhoPageProjects div{
@@ -29,11 +33,15 @@
 .cabecalhoPageProjects div input{
     background-color: var(--cor-secundaria);
     border: none;
-    padding: 2em;
+    padding: 3em;
     border-radius: 1em;
 }
+.cabecalhoPageProjects div button{
+background-color: var(--cor-secundaria);
+border: none;
+}
 .cabecalhoPageProjects div img{
-    width: 34px;
+    width: 56px;
     height: auto;
     margin-right: .8em;
 }

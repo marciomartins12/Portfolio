@@ -12,27 +12,30 @@
     background-color: var(--cor-secundaria);
 }
 .apresentacao h2{
+    text-indent: .75em;
     display: flex ;
     text-align: center;
     align-items: center;
     gap: .45em;
-    padding-top: 1em;
+    padding-top: .2em;
     font-size: 2.5em;
-    margin-bottom: 1em;
+    margin-bottom: .75em;
     font-family: var(--font-nabla);
     
 }
 .apresentacao p{
-    font-size: 1.75em;
+    text-indent: 1em;
+    font-size: 1.22em;
+    padding-bottom: .80em;
 }
 .habilidades{
     font-family: var(--font-nabla);
     font-size: 1.75em;
     margin-left: 1.5em;
     padding: 1.5em;
-    border-radius: .8em;
+    border-radius: 1.20em;
     width: 60%;
-    margin-top: 1em;
+    margin-top: 0.7em;
     background-color: var(--cor-secundaria);
     
 }
@@ -75,4 +78,16 @@
     padding: 1em 2em;
     border-radius: 10em ;
     background-color: var(--cor-de-fundo);
+}
+.exp{
+    background-color: var(--cor-secundaria);
+    border-radius: 1em;
+    font-size: 1.75em;
+    margin-left: 2em;
+    margin-top: .75em;
+    padding: 1em;
+    display: inline-block;
+}
+.exp span{
+    font-family: var(--font-nabla);
 }

@@ -8,8 +8,10 @@ const Projects = () => {
                 <h3>Projetos</h3>
                 <p>Estes projetos são projetos pessoais</p>
                 <div>
-                    <input type="search" name="Pesquisar" id="1"/>
-                    <img src="/src/assets/icons/Search.png" alt="search" />
+                    <input type="search" name="Pesquisar" id="1" />
+                    <button>
+                        <img src="/src/assets/icons/Search.png" alt="search" />
+                    </button>
                 </div>
             </div>
             <div className={Style.Projects}>

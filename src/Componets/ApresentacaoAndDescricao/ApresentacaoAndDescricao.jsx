@@ -11,7 +11,7 @@ const ApresentacaoAndDescricao = () => {
                         desenvolvimento web por enquanto.</p>
                 </div>
                 <div className={Style.habilidades}>
-                    <h3>Habilidades:</h3>
+                    <h3>Tooling:</h3>
                     <div>
                         <img src="/src/assets/icons/React.png" alt="React" />
                         <img src="/src/assets/icons/Javascript.png" alt="Javascript" />

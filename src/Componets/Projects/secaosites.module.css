@@ -13,6 +13,7 @@
 .cabecalhoPageProjects h3{
     background-color: var(--cor-secundaria);
     padding: 1em;
+    font-family: var(--font-nabla);
 }
 .cabecalhoPageProjects p{
     background-color: var(--cor-secundaria);

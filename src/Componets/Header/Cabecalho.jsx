@@ -6,8 +6,21 @@ const Cabecalho = () =>{
                 Portifólio
             </h2>
             <div>
-                aaaaaa
-                <img src="../../assets/Css.png"/>
+                <a href="#" target="_blank">
+                    <img className={Style.img} src="src/assets/Gmail.png"/>
+                </a>
+                <a href="#" target="_blank">
+                    <img className={Style.img} src="src/assets/Whatsapp.png"/>
+                </a>
+                <a href="#" target="_blank">
+                    <img className={Style.img} src="src/assets/Github.png"/>
+                </a>
+                <a href="#" target="_blank">
+                    <img className={Style.img} src="src/assets/Instagram.png"/>
+                </a>
+                <a href="#" target="_blank">
+                    <img className={Style.img} src="src/assets/Facebook.png"/>
+                </a>
             </div>
         </div>
     );

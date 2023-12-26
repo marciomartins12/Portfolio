@@ -29,11 +29,13 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 :root{
- --cor-de-fundo: #04144D;
+ --cor-de-fundo: #000A2D;
+ --cor-secundaria: #0E0B22;
 }
 body {
 	background-color: var(--cor-de-fundo);
 	line-height: 1;
+	color: white;
 }
 ol, ul {
 	list-style: none;

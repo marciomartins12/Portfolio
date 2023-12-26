@@ -7,19 +7,19 @@ const Cabecalho = () =>{
             </h2>
             <div>
                 <a href="#" target="_blank">
-                    <img className={Style.img} src="src/assets/Gmail.png"/>
+                    <img className={Style.img} src="src/assets/icons/Gmail.png"/>
                 </a>
                 <a href="#" target="_blank">
-                    <img className={Style.img} src="src/assets/Whatsapp.png"/>
+                    <img className={Style.img} src="src/assets/icons/Whatsapp.png"/>
                 </a>
                 <a href="#" target="_blank">
-                    <img className={Style.img} src="src/assets/Github.png"/>
+                    <img className={Style.img} src="src/assets/icons/Github.png"/>
                 </a>
                 <a href="#" target="_blank">
-                    <img className={Style.img} src="src/assets/Instagram.png"/>
+                    <img className={Style.img} src="src/assets/icons/Instagram.png"/>
                 </a>
                 <a href="#" target="_blank">
-                    <img className={Style.img} src="src/assets/Facebook.png"/>
+                    <img className={Style.img} src="src/assets/icons/Facebook.png"/>
                 </a>
             </div>
         </div>

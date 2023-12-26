@@ -1,12 +1,13 @@
+import ApresentacaoAndDescricao from "../ApresentacaoAndDescricao/ApresentacaoAndDescricao";
 import Cabecalho from "../Header/Cabecalho";
 
-const PaginaPrincipal = ()=>{
+const PaginaPrincipal = () => {
 
     return (
-    <>
-    <Cabecalho/>
-
-    </>);
+        <section>
+            <Cabecalho />
+            <ApresentacaoAndDescricao />
+        </section>);
 
 };
 export default PaginaPrincipal;

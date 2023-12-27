@@ -1,5 +1,6 @@
 .preload {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh; 
@@ -7,10 +8,10 @@
     position: fixed;
     top: 0;
     left: 0;
-    animation: rotar 2s infinite linear;
 }
 .preload img{
-    width: 75px;
+    animation: rotar 2s infinite linear;
+    width: 95px;
     height:auto;
 }
 @keyframes rotar {

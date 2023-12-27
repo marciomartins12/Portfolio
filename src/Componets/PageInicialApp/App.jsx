@@ -15,14 +15,17 @@ function App() {
     }
     timerparacarregar();
 
-  },)
+  },[]);
 
 
   return (
 
     <>
       {carregou ?
-        <div className={Style.preload}><img src="/src/assets/preload.png" alt="preload" /></div> :
+        <div className={Style.preload}>
+          <img src="/src/assets/preload.png" alt="preload" />
+          loading...
+          </div> :
         <div>
           <PaginaPrincipal />
           <Projects />

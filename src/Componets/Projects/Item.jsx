@@ -1,31 +1,22 @@
 import Style from "./Item.module.css";
+
 const Item = ({ img, nome, descricao, disponivel, tecnologiausada, link }) => {
     return (
-        <div className={Style.itemcontainer}>
+        <div className={Style.container}>
             <div className={Style.parte1}>
-                <img className={Style.imagemprojeto} src={img} alt={nome} />
-                <span className={Style.disponivelspan}> Disponivel:
+                <img src={img} alt={nome} />
+                <p>Disponivel: {disponivel.map((item, indice)=><img key={indice} src={item} alt="icones de dispositivos disponíveis" />)}</p>
 
-                    {disponivel.map((item) => {
-                        return (<img key={item} src={item} alt={nome} />)
-                    })}
-
-                </span>
             </div>
             <div className={Style.parte2}>
-                <h3>{nome}</h3>
-                <div className={Style.descricaoitem}>
-                    <p>{descricao}</p>
-                </div>
-                <div className={Style.btnandtec}>
-                    <button><a href={link}>Abrir</a></button>
-                    <div>
-                        {tecnologiausada.map((item) => {
-                            return <img key={item} src={item} />
-                        })}
-                    </div>
-                </div>
+            <h2>{nome}</h2>
+            <p>{descricao}</p>
+            <div>
+                <a href={link}>Abrir</a>
+                {tecnologiausada.map((item, indice)=> <img key={indice}src={item} alt="icone de tecnologias usadas"/> )}
             </div>
+            </div>
+            <div></div>
         </div>
     );
 };

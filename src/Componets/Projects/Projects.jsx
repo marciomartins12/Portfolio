@@ -5,8 +5,8 @@ const Projects = () => {
     return (
         <section className={Style.container} >
             <div className={Style.cabecalhoPageProjects}>
+                <p> {`</> `}Estes são projetos pessoais{` </>`}</p>
                 <h3>Projetos</h3>
-                <p>Estes são projetos pessoais</p>
                 <div>
                     <input type="search" name="Pesquisar" id="1" />
                     <button>

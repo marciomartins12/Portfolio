@@ -6,7 +6,7 @@ const ApresentacaoAndDescricao = () => {
     const sobremim = () => {
         setclick(true)
     };
-    const removeClick=()=>{
+    const removeClick = () => {
         setclick(false);
     };
 
@@ -39,12 +39,18 @@ const ApresentacaoAndDescricao = () => {
                 </div>
                 <img className={Style.superman} src="/src/assets/icons/superman.png" alt="superman" />
 
-            </section>{click?
-            <div className={Style.descricaominha}>
-                <p>Meu nome é Márcio José Martins Câmara, tenho 21 anos, sou de Peri-Mirim, Maranhão. Atualmente estou morando em São Luís, Maranhão, por conta do curso de Ciência da Computação.Sou capoeirista e enxergo na capoeira não apenas uma prática física, mas uma expressão cultural e uma forma de conexão com a tradição. Além disso, sou um entusiasta de jogos. A combinação de criatividade e lógica, encontrada tanto na capoeira quanto nos jogos, reflete minha abordagem eclética ao aprendizado.Há aproximadamente 7 meses, mergulhei no fascinante campo do desenvolvimento frontend. Minha jornada tem sido marcada pela dedicação a projetos pessoais, nos quais pude aplicar e consolidar os conhecimentos adquiridos ao longo desse período.
-                    Nesse curto intervalo de tempo, experimentei desafios estimulantes e conquistas gratificantes, moldando minha visão sobre o desenvolvimento de interfaces e a importância do usuário final. Embora minha jornada seja ainda incipiente, a paixão pela criação visual e pela interação amigável impulsiona meu crescimento diário.</p>
-                    <button onClick={()=>removeClick()}>x</button>
-            </div>:<></>}
+            </section>{click ?
+                <div className={Style.descricaominha}>
+                    <div className={Style.div}>
+                        <div className={Style.divImagem}> <img src="src/assets/marc.jpeg" alt="Márcio José" /></div>
+
+                        <p>Meu nome é Márcio José Martins Câmara, tenho 21 anos, sou de Peri-Mirim, Maranhão. Atualmente estou morando em São Luís, Maranhão, por conta do curso de Ciência da Computação.Sou capoeirista e enxergo na capoeira não apenas uma prática física, mas uma expressão cultural e uma forma de conexão com a tradição. Além disso, sou um entusiasta de jogos. A combinação de criatividade e lógica, encontrada tanto na capoeira quanto nos jogos, reflete minha abordagem eclética ao aprendizado.Há aproximadamente 7 meses, mergulhei no fascinante campo do desenvolvimento frontend. Minha jornada tem sido marcada pela dedicação a projetos pessoais, nos quais pude aplicar e consolidar os conhecimentos adquiridos ao longo desse período.
+                            Nesse curto intervalo de tempo, experimentei desafios estimulantes e conquistas gratificantes, moldando minha visão sobre o desenvolvimento de interfaces e a importância do usuário final. Embora minha jornada seja ainda incipiente, a paixão pela criação visual e pela interação amigável impulsiona meu crescimento diário.</p>
+                            <div className={Style.divbtn}> <img className={Style.btnclose} onClick={() => removeClick()} src="/src/assets/icons/close.png" alt="icone close" /></div>
+                       
+                    </div>
+                   
+                </div> : <></>}
         </section>
     );
 };

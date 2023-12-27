@@ -1,10 +1,10 @@
-
-.container{
+.container {
     margin: .80em 0;
     display: grid;
     grid-template-columns: 55% 45%;
 }
-.apresentacao{
+
+.apresentacao {
     margin-left: 1.5em;
     padding: 1.75em;
     width: 80%;
@@ -12,9 +12,9 @@
     background-color: var(--cor-secundaria);
 }
 
-.apresentacao h2{
+.apresentacao h2 {
     text-indent: .75em;
-    display: flex ;
+    display: flex;
     text-align: center;
     align-items: center;
     gap: .45em;
@@ -22,14 +22,16 @@
     font-size: 2.5em;
     margin-bottom: .75em;
     font-family: var(--font-nabla);
-    
+
 }
-.apresentacao p{
+
+.apresentacao p {
     text-indent: 1em;
     font-size: 1.22em;
     padding-bottom: .80em;
 }
-.habilidades{
+
+.habilidades {
     font-family: var(--font-nabla);
     font-size: 1.75em;
     margin-left: 1.5em;
@@ -38,62 +40,72 @@
     width: 60%;
     margin-top: 0.7em;
     background-color: var(--cor-secundaria);
-    
+
 }
-.habilidades div{
+
+.habilidades div {
     margin-top: 0.8em;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
-.habilidades div img{
+
+.habilidades div img {
     width: 56px;
     height: auto;
 }
-.habilidades div img:hover{
+
+.habilidades div img:hover {
     width: 46px;
 }
-.sobremim{
+
+.sobremim {
     background-color: var(--cor-secundaria);
     padding: 4em 4em 4em 0;
     border-radius: 6em 0 0 6em;
     position: relative;
 }
-.sobremim:hover{
+
+.sobremim:hover {
     transition-delay: 4s;
     left: -100px;
 }
-.sobremim div{
+
+.sobremim div {
     display: flex;
     flex-direction: column;
-    align-items: center; 
+    align-items: center;
     gap: .45em;
 }
-.imgGif{
+
+.imgGif {
     margin-top: 1em;
     width: 480px;
     height: auto;
     background-color: var(--cor-de-fundo);
     border-radius: 1em;
 }
-.sobremim button{
+
+.sobremim button {
     font-size: 1.45em;
     font-family: var(--font-DynaPuff);
     margin-top: 1em;
     display: flex;
     align-items: center;
-    border: none;   
+    border: none;
     color: var(--text-cor);
     padding: 1em 2em;
-    border-radius: 10em ;
+    border-radius: 10em;
     background-color: var(--cor-de-fundo);
 }
-.sobremim button:hover{
+
+.sobremim button:hover {
     font-size: 1.90em;
     margin-top: .70em;
     padding: .80em 1.50em;
 }
-.exp{
+
+.exp {
     background-color: var(--cor-secundaria);
     border-radius: 1em;
     font-size: 1.75em;
@@ -102,20 +114,80 @@
     padding: 1em;
     display: inline-block;
 }
-.exp span{
+
+.exp span {
     font-family: var(--font-nabla);
 }
-.superman{
+
+.superman {
     width: 150px;
     height: auto;
     position: absolute;
-    transform:rotate(265deg);
+    transform: rotate(265deg);
     left: -5em;
-    bottom:0;
+    bottom: 0;
 }
-.semclick{
-    display:none;
+
+.descricaominha {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0e0b22ca;
+    font-size: 1.75em;
 }
-.clicado{
-    display:none;
+
+
+.descricaominha .div {
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 2em 0;
+    border-radius: 2em;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 20% 70% 10%;
+    z-index: 999999;
+    background-color: var(--cor-secundaria);
+}
+
+.descricaominha div img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.descricaominha .divImagem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+.descricaominha .btnclose {
+    width: 45px;
+    height:auto;
+    padding: .60em;
+    border-radius: 1em;
+    color: white;
+    border: none;
+    position: absolute;
+    top: -20px;
+    right: 0;
+    background-color: var(--cor-terci);
+}
+
+.divbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
 }

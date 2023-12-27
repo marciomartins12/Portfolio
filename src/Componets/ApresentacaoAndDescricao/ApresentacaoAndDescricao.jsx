@@ -27,6 +27,8 @@ const ApresentacaoAndDescricao = () => {
                     <img className={Style.imgGif} src="./src/assets/gif.gif" alt="foto de Márcio José Martins Câmara" />
                     <button>sobre Mim <img src="/src/assets/icons/SobreMim.png" alt="sobre Mim icone" /></button>
                 </div>
+                <img className={Style.superman} src="/src/assets/icons/superman.png" alt="superman"/>
+
             </section>
         </section>
     );

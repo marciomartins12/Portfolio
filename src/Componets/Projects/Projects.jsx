@@ -3,7 +3,7 @@ import lista from "./projetos";
 import Style from "./secaosites.module.css";
 const Projects = () => {
     return (
-        <section >
+        <section className={Style.container} >
             <div className={Style.cabecalhoPageProjects}>
                 <h3>Projetos</h3>
                 <p>Estes projetos são projetos pessoais</p>

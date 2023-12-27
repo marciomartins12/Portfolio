@@ -6,7 +6,7 @@ const Projects = () => {
         <section className={Style.container} >
             <div className={Style.cabecalhoPageProjects}>
                 <h3>Projetos</h3>
-                <p>Estes projetos são projetos pessoais</p>
+                <p>Estes são projetos pessoais</p>
                 <div>
                     <input type="search" name="Pesquisar" id="1" />
                     <button>

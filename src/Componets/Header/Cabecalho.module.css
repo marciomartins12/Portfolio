@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: space-between;
     background-color: var(--cor-secundaria);
-    padding: 1em 0;
+    padding: .75em 0;
     margin-bottom: 2em;
 
 }
@@ -20,7 +20,7 @@
 }
 .img{
     background-color: var(--cor-de-fundo);
-    padding: 1em;
+    padding: .5em;
     border-radius: 50%;
     width: 54px;
     height: auto;

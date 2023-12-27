@@ -8,9 +8,9 @@ const Projects = () => {
                 <p> {`</> `}Estes são projetos pessoais{` </>`}</p>
                 <h3>Projetos</h3>
                 <div>
-                    <input type="search" name="Pesquisar" id="1" />
+                    <input type="search" placeholder="Pesquisar projetos"name="Pesquisar" id="1" />
                     <button>
-                        <img src="/src/assets/icons/Search.png" alt="search" />
+                        <img src="/src/assets/icons/Search.png"  alt="search" />
                     </button>
                 </div>
             </div>

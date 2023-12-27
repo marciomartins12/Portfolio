@@ -5,7 +5,7 @@ const ApresentacaoAndDescricao = () => {
         <section className={Style.container}>
             <div>
                 <div className={Style.apresentacao}>
-                    <h2>Desenvolvedor Web Full-Stack em Formação <img src="/src/assets/icons/lupadev.png" alt="lupa" /></h2>
+                    <h2> <img className={Style.img2} src="/src/assets/icons/lupadev.png" alt="lupa" />Desenvolvedor Web Full-Stack em Formação <img src="/src/assets/icons/lupadev.png" alt="lupa" /></h2>
                     <p>Olá! Sou Márcio, Meu comprometimento com a excelência reflete-se não apenas na busca constante por conhecimento, mas também na prática diária, desenvolvendo projetos pessoais e colaborando em iniciativas acadêmicas. Estou animado com a oportunidade de aplicar minhas habilidades em ambientes profissionais, contribuindo para projetos desafiadores e dinâmicos. Se você está em busca de um desenvolvedor web full-stack em formação, comprometido, curioso e ávido por desafios, estou pronto para fazer a diferença. Vamos criar algo incrível juntos!
                     </p>
                 </div>

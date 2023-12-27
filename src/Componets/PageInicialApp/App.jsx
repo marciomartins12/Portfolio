@@ -7,16 +7,14 @@ import Style from "./App.module.css";
 function App() {
   const [carregou, setcarregou] = useState(true);
 
-  useEffect(() => {
-    const timerparacarregar = () => {
-      setTimeout(() => {
-        setcarregou(false);
-      }, 2000);
-    }
-    timerparacarregar();
+ 
+  const timerparacarregar = () => {
+    setTimeout(() => {
+      setcarregou(false);
+    }, 2000);
+  }
 
-  },[]);
-
+  timerparacarregar();
 
   return (
 

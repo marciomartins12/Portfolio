@@ -1,6 +1,16 @@
+import { useState } from "react";
 import Style from "./ApresentacaoAndDescricao.module.css";
 
 const ApresentacaoAndDescricao = () => {
+    const [click, setclick] = useState(false);
+    const sobremim = () => {
+        setclick(true)
+    };
+    const removeClick=()=>{
+        setclick(false);
+    };
+
+
     return (
         <section className={Style.container}>
             <div>
@@ -25,11 +35,16 @@ const ApresentacaoAndDescricao = () => {
             <section className={Style.sobremim}>
                 <div>
                     <img className={Style.imgGif} src="./src/assets/gif.gif" alt="foto de Márcio José Martins Câmara" />
-                    <button>sobre Mim <img src="/src/assets/icons/SobreMim.png" alt="sobre Mim icone" /></button>
+                    <button onClick={() => { sobremim() }}>sobre Mim <img src="/src/assets/icons/SobreMim.png" alt="sobre Mim icone" /></button>
                 </div>
-                <img className={Style.superman} src="/src/assets/icons/superman.png" alt="superman"/>
+                <img className={Style.superman} src="/src/assets/icons/superman.png" alt="superman" />
 
-            </section>
+            </section>{click?
+            <div className={Style.descricaominha}>
+                <p>Meu nome é Márcio José Martins Câmara, tenho 21 anos, sou de Peri-Mirim, Maranhão. Atualmente estou morando em São Luís, Maranhão, por conta do curso de Ciência da Computação.Sou capoeirista e enxergo na capoeira não apenas uma prática física, mas uma expressão cultural e uma forma de conexão com a tradição. Além disso, sou um entusiasta de jogos. A combinação de criatividade e lógica, encontrada tanto na capoeira quanto nos jogos, reflete minha abordagem eclética ao aprendizado.Há aproximadamente 7 meses, mergulhei no fascinante campo do desenvolvimento frontend. Minha jornada tem sido marcada pela dedicação a projetos pessoais, nos quais pude aplicar e consolidar os conhecimentos adquiridos ao longo desse período.
+                    Nesse curto intervalo de tempo, experimentei desafios estimulantes e conquistas gratificantes, moldando minha visão sobre o desenvolvimento de interfaces e a importância do usuário final. Embora minha jornada seja ainda incipiente, a paixão pela criação visual e pela interação amigável impulsiona meu crescimento diário.</p>
+                    <button onClick={()=>removeClick()}>x</button>
+            </div>:<></>}
         </section>
     );
 };

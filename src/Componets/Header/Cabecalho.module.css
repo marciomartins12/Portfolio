@@ -10,7 +10,7 @@
 .container h2{
     margin-left: 3em;
     font-family: var(--font-nabla);
-    font-size: 1.4em;
+    font-size: 1.75em;
 }
 .container div{
     display: flex;
@@ -24,4 +24,8 @@
     border-radius: 50%;
     width: 54px;
     height: auto;
+}
+.img:hover{
+    width: 56px;
+    padding: 0;
 }

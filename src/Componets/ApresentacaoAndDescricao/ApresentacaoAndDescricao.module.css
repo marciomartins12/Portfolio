@@ -11,6 +11,7 @@
     border-radius: 1em;
     background-color: var(--cor-secundaria);
 }
+
 .apresentacao h2{
     text-indent: .75em;
     display: flex ;
@@ -47,13 +48,20 @@
 }
 .habilidades div img{
     width: 56px;
-    height: 56px;
+    height: auto;
+}
+.habilidades div img:hover{
+    width: 46px;
 }
 .sobremim{
     background-color: var(--cor-secundaria);
-    padding: 4em 0;
+    padding: 4em 4em 4em 0;
     border-radius: 6em 0 0 6em;
     position: relative;
+}
+.sobremim:hover{
+    transition-delay: 4s;
+    left: -100px;
 }
 .sobremim div{
     display: flex;
@@ -80,6 +88,11 @@
     border-radius: 10em ;
     background-color: var(--cor-de-fundo);
 }
+.sobremim button:hover{
+    font-size: 1.90em;
+    margin-top: .70em;
+    padding: .80em 1.50em;
+}
 .exp{
     background-color: var(--cor-secundaria);
     border-radius: 1em;
@@ -99,4 +112,10 @@
     transform:rotate(265deg);
     left: -5em;
     bottom:0;
+}
+.semclick{
+    display:none;
+}
+.clicado{
+    display:none;
 }

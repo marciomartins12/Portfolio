@@ -1,59 +1,65 @@
-.itemcontainer{
-background-color: var(--cor-secundaria);
-display: grid;
-grid-template-columns: 40% 60%;
-border-radius: 1em;
-margin: .8em 0;
-height: 400px;
+.container {
+   
+    margin-top: 1em;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    background-color: var(--cor-secundaria);
+    border-radius: 1em;
+    padding: 1em;
+   
 }
-
-
-.disponivelspan{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.disponivelspan img{
-    width: 40px;
-    height: auto;
-}
-.parte1{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 1em;
-}
-.imagemprojeto{
-    width: 250px;
-    height: auto;
+.parte1 .img1{
     background-color: var(--cor-terci);
     border-radius: 1em;
-}
-.parte2 h3{
-    font-family: var(--font-nabla);
-    font-size: 1.75em;
-    text-indent: 3em;
-    margin: 1em 0
-}
-.btnandtec{
-    display: flex;
-    flex-direction: row-reverse;
+}.parte1 div{
+    gap: 1em;
+    display: flex;  
     align-items: center;
     justify-content: center;
-    gap: 1.5em;
-    margin-top: 1em;
 }
-.btnandtec button{
-    background-color: var(--cor-de-fundo);
-    padding: 1em;
-    border-radius: 1em;
-    border: none;
-    font-size: 1.45em;
-    font-family: var(--font-handjet);
+.parte1 div p{
+    font-size: 1em;
 }
-.btnandtec a{
-    text-decoration: none;
-    color: white;
+.parte1 div img{
+    height: 2em;
+    width: auto;
+}
 
+.parte2 h2 {
+    margin: 1em 0;
+    font-family: var(--font-nabla);
+    text-align: center;
+    font-size: 2em;
+}
+.parte2{
+    display: flex;
+    flex-direction: column;
+
+}
+.parte2 p{
+    height: 250px;
+    overflow: hidden;
+    overflow-y: scroll;
+    text-indent: 1em;
+}
+.parte2 div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    gap: 2em;
+}
+.parte2 a{
+    color: var(--text-cor);
+    font-size: 2em;
+    border-radius: 1em;
+    padding: 1em;
+    text-decoration: none;
+    border: none;
+    background-color: var(--cor-terci);
+}
+.parte2 img{
+    width: 56px;
+    height: auto;
 }

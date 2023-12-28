@@ -30,7 +30,7 @@ const Item = ({ img, nome, descricao, disponivel, tecnologiausada, link, efeito,
                 <h2>{nome}</h2>
                 <p>{descricao}</p>
                 <div>
-                    <a href={link}>Abrir</a>
+                    <a href={link} target="_blank">Abrir</a>
                     {tecnologiausada.map((item, indice) => <img key={indice} src={item} alt="icone de tecnologias usadas" />)}
                 </div>
             </div>

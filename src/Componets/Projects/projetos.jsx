@@ -8,7 +8,7 @@ const lista = [{
     disponivel: ["src/assets/icons/Celular.png"],
     tecnologiaUsada: ["src/assets/icons/React.png", "src/assets/icons/Css.png", "src/assets/icons/Javascript.png", "src/assets/icons/Html.png"],
     efeitoespecial: false,
-    link: "https://github.com/marciomartins12",
+    link: "https://kaleidoscopic-toffee-4ff3b0.netlify.app",
 }, {
     img: "/src/assets/imgsProjects/alurabooks.png",
     nome: "AluraBooks",
@@ -30,7 +30,7 @@ const lista = [{
     disponivel: ["src/assets/icons/Celular.png", "src/assets/icons/pc.png"],
     tecnologiaUsada: ["src/assets/icons/Css.png", "src/assets/icons/Javascript.png", "src/assets/icons/Html.png"],
     efeitoespecial: false,
-    link: "https://github.com/marciomartins12",
+    link: "https://endearing-custard-8ae14e.netlify.app/",
 }, {
     img: "/src/assets/imgsProjects/chat.png",
     nome: "Chat",
@@ -46,7 +46,7 @@ const lista = [{
     disponivel: ["src/assets/icons/Celular.png", "src/assets/icons/pc.png"],
     tecnologiaUsada: ["src/assets/icons/React.png", "src/assets/icons/Css.png", "src/assets/icons/Javascript.png", "src/assets/icons/Html.png"],
     efeitoespecial: true,
-    link: "https://aiaiaia"
+    link: "https://jovial-cheesecake-c5b8a8.netlify.app"
 
 },
 {
@@ -78,7 +78,7 @@ const lista = [{
             disponivel: ["src/assets/icons/Celular.png", "src/assets/icons/pc.png"],
             tecnologiaUsada: ["src/assets/icons/Css.png", "src/assets/icons/Javascript.png", "src/assets/icons/Html.png"],
             efeitoespecial: false,
-            link: "https://aiaiaia"
+            link: "https://stately-elf-30c613.netlify.app"
 }
 ];
 

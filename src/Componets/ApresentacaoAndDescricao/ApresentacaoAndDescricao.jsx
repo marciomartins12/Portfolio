@@ -1,6 +1,5 @@
 import { useState } from "react";
 import Style from "./ApresentacaoAndDescricao.module.css";
-
 const ApresentacaoAndDescricao = () => {
     const [click, setclick] = useState(false);
     const sobremim = () => {
@@ -9,7 +8,7 @@ const ApresentacaoAndDescricao = () => {
     const removeClick = () => {
         setclick(false);
     };
-
+  
 
     return (
         <section className={Style.container}>

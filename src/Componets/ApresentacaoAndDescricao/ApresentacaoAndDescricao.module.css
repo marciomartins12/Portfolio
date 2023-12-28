@@ -2,15 +2,25 @@
     margin: .80em 0;
     display: grid;
     grid-template-columns: 55% 45%;
+    animation: test 1s  linear;
 }
-
+@keyframes test {
+    0%{
+        margin-left: 10px;
+    }
+    100%{
+     margin-left: 0;
+    }
+}
 .apresentacao {
     margin-left: 1.5em;
     padding: 1.75em;
     width: 80%;
     border-radius: 1em;
     background-color: var(--cor-secundaria);
+
 }
+
 
 .apresentacao h2 {
     text-indent: .75em;
@@ -61,15 +71,12 @@
 
 .sobremim {
     background-color: var(--cor-secundaria);
-    padding: 4em 4em 4em 0;
     border-radius: 6em 0 0 6em;
+    left: -100px;
     position: relative;
+   
 }
 
-.sobremim:hover {
-    transition-delay: 4s;
-    left: -100px;
-}
 
 .sobremim div {
     display: flex;
@@ -129,6 +136,7 @@
 }
 
 .descricaominha {
+    transition: all .6s ease;
     display: flex;
     align-items: center;
     justify-content: center;

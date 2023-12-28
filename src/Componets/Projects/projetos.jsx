@@ -30,7 +30,7 @@ const lista = [{
     disponivel: ["/assets/icons/Celular.png", "/assets/icons/pc.png"],
     tecnologiaUsada: ["/assets/icons/Css.png", "/assets/icons/Javascript.png", "/assets/icons/Html.png"],
     efeitoespecial: false,
-    link: "https://endearing-custard-8ae14e.netlify.app/",
+    link: "https://relaxed-belekoy-9b92a3.netlify.app/",
 }, {
     img: "/assets/imgsProjects/chat.png",
     nome: "Chat",

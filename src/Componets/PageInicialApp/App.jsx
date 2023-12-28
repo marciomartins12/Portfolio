@@ -21,7 +21,7 @@ function App() {
     <>
       {carregou ?
         <div className={Style.preload}>
-          <img src="/src/assets/preload.png" alt="preload" />
+          <img src="/assets/preload.png" alt="preload" />
           loading...
           </div> :
         <div>

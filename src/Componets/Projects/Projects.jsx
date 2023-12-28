@@ -11,7 +11,7 @@ const Projects = () => {
                 <div>
                     <input type="search" placeholder="Pesquisar projetos"name="Pesquisar" id="1" />
                     <button>
-                        <img src="/src/assets/icons/Search.png"  alt="search" />
+                        <img src="/assets/icons/Search.png"  alt="search" />
                     </button>
                 </div>
             </div>

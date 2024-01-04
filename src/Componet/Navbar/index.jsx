@@ -1,20 +1,17 @@
-import { Outlet } from "react-router-dom";
+import { Link, Outlet} from "react-router-dom";
 
 const Navbar = () => {
     return (
     <>
-    <ul class="nav justify-content-center">
-        <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Active</a>
+    <ul className="nav justify-content-center">
+        <li className="nav-item">
+            <Link to= "" className="nav-link active" aria-current="page" >Início</Link>
         </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+        <li className="nav-item">
+            <Link to= "" className="nav-link" >Projetos</Link>
         </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        <li className="nav-item">
+            <Link to= "" className="nav-link" >Contatos</Link>
         </li>
     </ul>
     <Outlet/>

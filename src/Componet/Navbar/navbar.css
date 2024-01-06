@@ -2,6 +2,10 @@
     background-color: #0F0F0F;
     height: 100vh;
 }
+.item-lista{
+    text-decoration: none;
+    color: #363636;
+}
 .ativo{
     color: #fff;
 }

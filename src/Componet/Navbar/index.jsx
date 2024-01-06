@@ -13,14 +13,14 @@ const Navbar = () => {
     return (
     <main className="main">
     <ul className="nav justify-content-center  ">
-        <li className="nav-item">
-            <Link to= "/" className={` item-lista ${active === "/"? 'ativo': ""}`}  >Início</Link>
+        <li className="nav-item mt-3">
+            <Link to= "/" className={`m-3 item-lista ${active === "/"? 'ativo': ""}`}  >Início</Link>
         </li>
-        <li className="nav-item">
-            <Link to="projetos" className={` item-lista ${active === "/projetos"? 'ativo': ""}`}  >Projetos</Link>
+        <li className="nav-item mt-3">
+            <Link to="projetos" className={`m-3 item-lista ${active === "/projetos"? 'ativo': ""}`}  >Projetos</Link>
         </li>
-        <li className="nav-item">
-            <Link to= "contatos" className={` item-lista ${active === "/contatos"? 'ativo': ""}`}  >Contatos</Link>
+        <li className="nav-item mt-3">
+            <Link to= "contatos" className={`m-3 item-lista ${active === "/contatos"? 'ativo': ""}`}  >Contatos</Link>
         </li>
     </ul>
     <Outlet/>

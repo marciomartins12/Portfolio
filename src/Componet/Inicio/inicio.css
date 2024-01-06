@@ -1,0 +1,12 @@
+.container-inicio{
+    margin-top: 3em;
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    align-items: center;
+    text-align: center;
+}
+.conteudo{
+    border: 1px solid white;
+    border-radius: 2em;
+    
+}

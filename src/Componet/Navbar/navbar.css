@@ -1,11 +1,20 @@
+:root{
+ 
+    --color-text:#363636;
+    --color-sec: #fff;
+}
+
 .main{
-    background-color: #0F0F0F;
+
     height: 100vh;
 }
 .item-lista{
     text-decoration: none;
-    color: #363636;
+    color: var(--color-text);
+}
+.item-lista:hover{
+   color: var(--color-sec);
 }
 .ativo{
-    color: #fff;
+    color: var(--color-sec);
 }

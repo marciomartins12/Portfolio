@@ -9,7 +9,7 @@ const Inicio = () => {
             <div>
                 <div>
                     <h2>Hello! my name is Márcio</h2>
-                    <p>I am a <h1>developer web</h1></p>
+                    <h1>I am a developer web</h1>
                     <p>I build things for web</p>
                 </div>
                 <Link className="btn" to="/sobremim">

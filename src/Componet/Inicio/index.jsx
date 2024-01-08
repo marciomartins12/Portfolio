@@ -1,61 +1,27 @@
+import { Link } from "react-router-dom";
 import "./inicio.css";
 
 
 const Inicio = () => {
+
     return (
         <section className="container-inicio">
-            <div></div>
-            <section className="conteudo">
+            <div>
                 <div>
-                    <div>
-                        <div>
-                            <img src="" alt="minha foto"/>
-                        </div>
-                        <div>
-                            <span>Programador web</span>
-                            <h2>Márcio Martins</h2>
-                            <p>Programador full stack</p>
-                            <p>em desenvolvimento</p>
-                        </div>
-                    </div>
-                    <div>
-                        <p>texto corrido depois fazer...</p>
-                        <div>
-                            <div>
-                                <img src="" alt="imagem de livros" />
-                                <h3>curso e formações</h3>
-                            </div>
-                            <div>
-                                <img src="" alt="imagem de livros" />
-                                <h3>meus trabalhos</h3>
-                            </div>
-                        </div>
-
-                    </div>
+                    <h2>Hello! my name is Márcio</h2>
+                    <p>I am a <h1>developer web</h1></p>
+                    <p>I build things for web</p>
                 </div>
+                <Link className="btn" to="/sobremim">
+                    About me
+                </Link>
+            </div>
+            <div>
 
-                <div>
-        <div>
-            <h4>Ferramentas</h4>
-            ferramentas...
-        </div>
-        <div>
-
-        <div>
-        <div>
-            <div></div>
-            <div></div>
-        </div>
-<h4>Perfis em algumas redes</h4>
-        </div>
+                <img src="/src/assets/img/Code typing-pana 1(1).png" alt="" />
 
 
-
-        </div>
-
-                </div>
-            </section>
-            <div></div>
+            </div>
         </section>
     );
 };

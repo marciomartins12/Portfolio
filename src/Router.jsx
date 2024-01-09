@@ -1,20 +1,17 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Navbar from "./Componet/Navbar";
-import Inicio from "./Componet/Inicio";
+import { BrowserRouter, Route, Routes } from "react-router-dom"
+import DefaultPage from "./Componets/Home/DefaultPage"
 
-const Router = () => {
-    return (
-        <BrowserRouter>
-            <Routes>
-                <Route path="/" element={<Navbar />}>
-                    <Route index element={<Inicio/>} />
-                    <Route path="projetos" element={<div>projetos</div>} />
-                    <Route path="contatos" element={<div>contatos</div>} />
-                </Route>
+function Router() {
 
-            </Routes>
-        </BrowserRouter>
-    );
-};
+  return (
+   <BrowserRouter>
+   <Routes>
+    <Route path="/" element={<DefaultPage/>}>
+      <Route/>
+    </Route>
+   </Routes>
+   </BrowserRouter>
+  )
+}
 
 export default Router

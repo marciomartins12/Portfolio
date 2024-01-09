@@ -1,0 +1,10 @@
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.navBar h1{
+    text-align: start;
+}

@@ -1,0 +1,15 @@
+.container{
+    width: 80%;
+    margin: 0 auto;
+    display:grid ;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+}
+.container img{
+    width: 500px;
+    right:auto;
+}
+.btn{
+    text-decoration: none;
+    background-color: yellow;
+}

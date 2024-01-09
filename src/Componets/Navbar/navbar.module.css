@@ -1,15 +1,22 @@
 .navBar{
     display: flex;
+    margin: 1em auto 1em auto;
     justify-content: space-between;
+    align-items: center;
     width: 80%;
-    margin-right: auto;
-    margin-left: auto;
-
+}
+.navBar div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
 .navBar h1{
     text-align: start;
 }
+.navBar h1 span{
+    font-size: 0.75em;
+}
 .navBar img{
-    width: 36px;
+    width: 24px;
     height:auto;
 }

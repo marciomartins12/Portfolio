@@ -1,3 +1,8 @@
+:root{
+    --background-color:#060919;
+    --color-secondary:#2635894f;
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -24,7 +29,9 @@ footer, header, hgroup, menu, nav, section {
     display: block;
 }
 body {
+    background-color: var(--background-color);
     line-height: 1;
+    color: white;
 }
 ol, ul {
     list-style: none;

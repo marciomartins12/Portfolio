@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 import Style from "./panel.module.css";
+
 const Panel = () => {
     return (
-
     <div className={Style.container}>
         <Link className={Style.Btn} to='/home'><img src="/assets/img/home.png" alt="home" /></Link>
         <Link className={Style.Btn} to='/about me'><img src="/assets/img//aboutme.png" alt="about" /></Link>

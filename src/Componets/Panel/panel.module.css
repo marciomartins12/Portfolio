@@ -4,14 +4,30 @@
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
-    gap: 40px;
+    gap: 50px;
     background-color: var(--color-secondary);
     right: 20px;
-    padding: 1em;
+    padding: 1.5em .75em;
     border-radius: 1em;
     top: 320px
-}
+} 
 .container img{
-    width: 36px;
+    width: 24px;
     height:auto;
+}
+.container img:hover{
+    cursor: pointer;
+}
+
+.container a {
+    text-decoration: none;
+}
+.message{
+    color: #000000;
+    position: absolute;
+    left: -80px;
+    background-color: var(--color-secondary);
+    border: none;
+    padding: 1em;
+    display: none;
 }

@@ -1,23 +1,38 @@
-.navBar{
+.navBar {
     display: flex;
     margin: 2em auto 9em auto;
     justify-content: space-between;
     align-items: center;
     width: 80%;
 }
-.navBar div{
+
+.navBar div {
     display: flex;
     align-items: center;
     gap: 20px;
 }
-.navBar h1{
+
+.navBar h1 {
     font-size: 1.48em;
     font-weight: 700;
 }
-.navBar h1 span{
+.navBar h1:hover{
+    color: #afa7a7;
+    cursor:pointer;
+}
+
+.navBar h1 span {
     font-weight: 400;
 }
-.navBar img{
+
+.navBar img {
+    border-radius: 50%;
+    padding: .12em;
     width: 24px;
-    height:auto;
+    height: auto;
+    background-color: var(--color-secondary);
+}
+
+.navBar img:hover {
+    background-color: black;
 }

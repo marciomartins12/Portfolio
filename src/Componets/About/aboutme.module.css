@@ -1,0 +1,64 @@
+.container{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 0 auto;
+    align-items: center;
+    font-family: var(--font-family);
+}
+.describle{
+    width: 70%;
+    margin-top: 5em;
+    margin-bottom: 1em;
+    line-height: 30px;
+}
+.containercountandtext{
+   
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    width: 40%;
+}
+.countandtext{
+    display: flex;
+    flex-direction: column;
+}
+.countandtext h3{
+    font-size: 2em;
+    font-weight:700;
+    color: #cc313c;
+}
+.countandtext p{
+    width: 50%;
+}
+.nav{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    margin-bottom: 2em;
+}
+.nav button{
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: 700;
+    background-color: #00000000;
+    border: none;   
+}
+.nav button:hover{
+    cursor: pointer;
+}
+.divconteudo{
+    display: flex;
+    gap: 2em;
+    align-items: center;
+}
+.divimgicons{
+    display: flex;
+    align-items: center;
+    gap: .55em;
+}
+.divimgicons img{
+    width: 36px;
+    height:auto;
+}

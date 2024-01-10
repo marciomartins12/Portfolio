@@ -12,7 +12,7 @@ const About = () => {
 
         const interval2 = setInterval(() => {
             setCount0to12((prevCount) => (prevCount < 12 ? prevCount + 1 : 12));
-        }, 500);
+        }, 300);
 
         return () => {
             clearInterval(interval1);
@@ -23,17 +23,44 @@ const About = () => {
     return (
         <section className={Style.container}>
             <div>
-                <p></p>
-                <div>
-                    <h3>{count0to1}</h3>
-                    <p>year of experiences</p>
-                </div>
-                <div>
-                    <h3>{Math.round(count0to12)}</h3>
-                    <p>Finished projects</p>
+                <p className={Style.describle}>Hi, I'm Marcio José Martins Câmara, I'm 21 years old and I live in São Luís. I'm studying Computer Science and I love programming. I'm always learning something new and applying my knowledge to interesting projects. I'm passionate about the world of technology and I can't wait to see what the future holds
+                </p>
+                <div className={Style.containercountandtext}>
+                    <div className={Style.countandtext}>
+                        <h3>{count0to1}</h3>
+                        <p>year of experiences</p>
+                    </div>
+                    <div className={Style.countandtext}>
+                        <h3>{Math.round(count0to12)}+</h3>
+                        <p>Finished projects</p>
+                    </div>
                 </div>
             </div>
-            <div></div>
+            <div>
+                <nav className={Style.nav}>
+                    <button>Skills</button>
+                    <button>Credentials</button>
+                    <button>Expereinces</button>
+                </nav>
+                <div className={Style.divconteudo}>
+                    <div>Developer</div>
+                    -
+                    <div className={Style.divimgicons}>
+                        <div><img src="/assets/img/react.png" alt="icon" /></div>
+                        <div><img src="/assets/img/js.png" alt="icon" /></div>
+                        <div><img src="/assets/img/html.png" alt="icon" /></div>
+                        <div><img src="/assets/img/css.png" alt="icon" /></div>
+                        <div><img src="/assets/img/php.png" alt="icon" /></div>
+                    </div>
+                </div>
+
+
+                <div></div>
+                <div></div>
+
+
+
+            </div>
         </section>
     );
 };

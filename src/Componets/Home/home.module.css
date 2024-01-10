@@ -1,8 +1,9 @@
 .container{
     width: 80%;
+    height: 100%;
     margin: 0 auto;
-    display:grid ;
-    grid-template-columns: 50% 50%;
+    display:flex ;
+    justify-content: space-between;
     align-items: center;
 }
 .container img{
@@ -11,13 +12,13 @@
     align-items: center;
 }
 .container div h2{
-    font-size: 3em;
+    font-size: 3.80em;
     font-weight: 700;
 }
 .container div p{
     margin-top: .50em;
     font-weight: 700;
-    font-size: 1.70em;
+    font-size: 3em;
 }
 .span{
    

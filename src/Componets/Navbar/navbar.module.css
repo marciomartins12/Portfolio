@@ -1,6 +1,6 @@
 .navBar {
     display: flex;
-    margin: 2em auto 8% auto;
+    margin: 1em  auto 0 auto;
     justify-content: space-between;
     align-items: center;
     width: 80%;
@@ -13,7 +13,7 @@
 }
 
 .navBar h1 {
-    font-size: 1.48em;
+    font-size: 1.6em;
     font-weight: 700;
 }
 .navBar h1:hover{
@@ -28,7 +28,7 @@
 .navBar img {
     border-radius: 50%;
     padding: .12em;
-    width: 24px;
+    width: 32px;
     height: auto;
     background-color: var(--color-secondary);
 }

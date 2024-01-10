@@ -1,3 +1,6 @@
-.containerFull{
-    height: 100%;
+.containerfull{
+    height: 90vh;
+}
+.content{
+    height: 100%; 
 }

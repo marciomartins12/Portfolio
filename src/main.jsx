@@ -10,15 +10,15 @@ import About from './Componets/About'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-   <BrowserRouter>
-   <Routes>
-    <Route path="/" element={<DefaultPage/>}>
-      <Route index element={<Home/>}/>
-      <Route path="aboutme" element={<About/>}/>
-      <Route path="projects" element={<Projects/>}/>
-      <Route path="contacts" element={<Contacts/>}/>
-    </Route>
-   </Routes>
-   </BrowserRouter>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<DefaultPage />}>
+          <Route index element={<Home/>} />
+          <Route path="aboutme" element={<About/>} />
+          <Route path="projects" element={<Projects/>} />
+          <Route path="contacts" element={<Contacts/>} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>,
 )

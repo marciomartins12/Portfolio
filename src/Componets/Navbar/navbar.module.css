@@ -1,6 +1,6 @@
 .navBar {
     display: flex;
-    margin: 2em auto 9em auto;
+    margin: 2em auto 8% auto;
     justify-content: space-between;
     align-items: center;
     width: 80%;
@@ -34,5 +34,6 @@
 }
 
 .navBar img:hover {
+    cursor:pointer;
     background-color: black;
 }

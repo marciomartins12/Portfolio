@@ -77,7 +77,7 @@ const Part = () => {
           density: {
             enable: true,
           },
-          value: 58,
+          value: 62,
         },
         opacity: {
           value: 0.5,

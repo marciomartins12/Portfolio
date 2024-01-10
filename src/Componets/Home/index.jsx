@@ -8,7 +8,7 @@ const Home = () => {
             <div>
                 <h2>I am a Developer web.</h2>
                 <p>I build <span className={Style.span}>things for web.</span></p>
-                <div  className={Style.descricao}>
+                <div className={Style.descricao}>
                     <span>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero impedit quod expedita!
                     </span>
@@ -19,7 +19,7 @@ const Home = () => {
                         <button className={Style.btn}>
                             <svg width="180px" height="60px" viewBox="0 0 180 60" className={Style.border}>
                                 <polyline points="179,1 179,59 1,59 1,1 179,1" className={Style.bgline} />
-                                <polyline points="179,1 179,59 1,59 1,1 179,1" className={Style.hlline}/>
+                                <polyline points="179,1 179,59 1,59 1,1 179,1" className={Style.hlline} />
                             </svg>
                             <span>My projects</span>
                         </button>
@@ -28,8 +28,8 @@ const Home = () => {
             </div>
 
             <img src="/assets/img/homepage.svg" alt="homepage" />
-    
-<Part/>
+            <Part />
+
         </section>
     );
 };

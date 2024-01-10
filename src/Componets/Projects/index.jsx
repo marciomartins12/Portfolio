@@ -15,17 +15,15 @@ const Projects = () => {
                 <div className={Style.divimg}>
                     <div className={Style.containerImgs}>
                         <div className={Style.div}>
-                            <img src="/assets/imgProjects/test.jpg" alt="" />
+                            <img src="/assets/imgProjects/alurabooks.png" alt="" />
                             <div className={Style.title}>
-                                <h4>Alurabooks</h4>
-                                <a href="#" target="_blank">Open site</a>
+                                <a href="#" target="_blank">Live project</a>
                             </div>
                         </div>
                         <div className={Style.div}>
-                            <img src="/assets/imgProjects/test.jpg" alt="" />
+                            <img src="/assets/imgProjects/estacaosuplemento.png" alt="" />
                             <div className={Style.title}>
-                                <h4>EstaçãoSuplementos</h4>
-                                <a href="#" target="_blank">Open site</a>
+                                <a href="#" target="_blank">Live project</a>
                             </div>
                         </div>
                     </div>

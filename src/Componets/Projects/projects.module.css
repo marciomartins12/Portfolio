@@ -1,22 +1,23 @@
-.container{
+.container {
     width: 80%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 30% 70%;
     font-family: var(--font-family);
-    font-weight: 400
+    font-weight: 400;
 }
 
-.container div h2{
-  font-weight: 700;
-  font-size: 2.5em;
-  margin-bottom: .70em;
+.container div h2 {
+    font-weight: 700;
+    font-size: 2.5em;
+    margin-bottom: .70em;
 }
-.container div h2 span{
+
+.container div h2 span {
     color: #cc313c;
 }
 
-.containerImgs{
+.containerImgs {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -24,36 +25,58 @@
     gap: 1.2em;
     margin-bottom: 1em;
 }
+
 .divimg img {
     width: 400px;
-    height:auto;
-    border-radius: .80em ;
-    z-index: 999;
+    height: auto;
+    border-radius: .80em;
+    transition: transform 0.5s ease; 
+    z-index: 1;
 }
 
-.div{
+.div {
     position: relative;
 }
-.title{
-    background-color: rgba(98, 47, 137, 0.587);
+
+
+.title {
     text-align: center;
+    border-radius: .80em;
     position: absolute;
-    top: 50%;
-    left: 50%; 
-    transform: translate(-50%, -50%); 
-    width: 100%;
+    left: 50%;
+    transform: translate(-50%, 0); 
+    width: 400px;
     height: 100%;
-    z-index: 9;
+    z-index: 0;
+    opacity: 0;
+    transition: transform 0.5s ease, opacity 0.5s ease;
 }
 
-.title h4{
-    padding-bottom: 1em ;
-}
-.title a{
+.title a {
     text-decoration: none;
-    background-color: blue;
     color: white;
-    padding: .48em;
+    font-size: 2em;
     border-radius: .45em;
-    
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+}
+
+.div:hover .title {
+    transform: translate(-50%, -100%); 
+    z-index: 1;
+    opacity: 1;
+}
+
+.div:hover img {
+    box-shadow: rgba(108, 27, 169, 0.935) 0px 7px 29px 0px;
+    opacity: .2;
+}
+
+.div:hover {
+    transform: rotateZ(2deg);
+    transition: transform 0.5s ease;
 }

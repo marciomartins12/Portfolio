@@ -1,3 +1,4 @@
+
 import Style from "./projects.module.css";
 
 const Projects = () => {
@@ -12,15 +13,31 @@ const Projects = () => {
             </div>
             <div>
                 <div className={Style.divimg}>
-                    <div>
+                    <div className={Style.containerImgs}>
+                        <div className={Style.div}>
+                            <img src="/assets/imgProjects/test.jpg" alt="" />
+                            <div className={Style.title}>
+                                <h4>Alurabooks</h4>
+                                <a href="#" target="_blank">Open site</a>
+                            </div>
+                        </div>
+                        <div className={Style.div}>
+                            <img src="/assets/imgProjects/test.jpg" alt="" />
+                            <div className={Style.title}>
+                                <h4>EstaçãoSuplementos</h4>
+                                <a href="#" target="_blank">Open site</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={Style.containerImgs}>
+                        <img src="/assets/imgProjects/test.jpg" alt="" />
+                        <img src="/assets/imgProjects/test.jpg" alt="" />
+
 
                     </div>
-                    <div>
-
-                    </div>
+                    <button>-{">"}</button>
+                    <button>{"<"}-</button>
                 </div>
-                <button>{"<"}-</button>
-                <button>-{">"}</button>
             </div>
 
         </section>

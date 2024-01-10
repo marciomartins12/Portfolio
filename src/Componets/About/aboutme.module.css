@@ -1,19 +1,26 @@
 .container {
     width: 80%;
+    height: 100%;
     display: grid;
     grid-template-columns: 50% 50%;
     margin: 0 auto;
+    align-items: center;
     font-family: var(--font-family);
+}
+.firstcontainer{
+    margin-top: 6em;
+  
 }
 
 .describle {
-    width: 70%;
+    width: 80%;
     font-size: 1.5em;
     margin-bottom: 1em;
     line-height: 30px;
 }
 .describle span{
     color: #cc313c;
+    font-size: 2em;
 }
 
 .containercountandtext {
@@ -30,13 +37,16 @@
 }
 
 .countandtext h3 {
-    font-size: 2em;
+    font-size: 2.5em;
     font-weight: 700;
     color: #cc313c;
 }
 
 .countandtext p {
     width: 50%;
+}
+.containerconteudo{
+    height: 200px;
 }
 
 .nav {
@@ -49,17 +59,18 @@
 
 .navbutton {
     color: #fff;
-    font-size: 1.3em;
+    font-size: 1.48em;
     font-weight: 700;
     background-color: #00000000;
     border: none;
 }
 .ativo {
-    font-size: 1.3em;
+    font-size: 1.48em;
     font-weight: 700;
     border: none;
     color: #cc313c;
     background-color: #00000000;
+    border-bottom:1px solid #cc313c;
   }
 
 .navbutton:hover {

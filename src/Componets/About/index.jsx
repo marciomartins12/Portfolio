@@ -26,8 +26,8 @@ const About = () => {
 
     return (
         <section className={Style.container}>
-            <div>
-                <p className={Style.describle}>Hi, I'm <span> Marcio José Martins Câmara</span>, I'm 21 years old and I live in São Luís. I'm studying Computer Science and I love programming. I'm always learning something new and applying my knowledge to interesting projects. I'm passionate about the world of technology and I can't wait to see what the future holds
+            <div className={Style.firstcontainer}>
+                <p className={Style.describle}><span> Hi, I'm Marcio José Martins Câmara,</span><br /> I'm 21 years old and I live in São Luís. I'm studying Computer Science and I love programming. I'm always learning something new and applying my knowledge to interesting projects. I'm passionate about the world of technology and I can't wait to see what the future holds
                 </p>
                 <div className={Style.containercountandtext}>
                     <div className={Style.countandtext}>
@@ -40,62 +40,65 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            <div>
+            <div className={Style.twocontainer}>
                 <nav className={Style.nav}>
                     <button className={click === "skills" ? Style.ativo : Style.navbutton} onClick={() => handleclick("skills")}>Skills</button>
                     <button className={click === "credentials" ? Style.ativo : Style.navbutton} onClick={() => handleclick("credentials")}>Credentials</button>
                     <button className={click === "experiences" ? Style.ativo : Style.navbutton} onClick={() => handleclick("experiences")}>Expereinces</button>
                 </nav>
 
+                <div className={Style.containerconteudo}>
 
-                {click === "skills" ?
-                    <div>
-                        <div className={Style.divconteudo}>
-                            <div>Developer</div>
-                            -
-                            <div className={Style.divimgicons}>
-                                <div><img src="/assets/img/react.png" alt="icon" /></div>
-                                <div><img src="/assets/img/js.png" alt="icon" /></div>
-                                <div><img src="/assets/img/html.png" alt="icon" /></div>
-                                <div><img src="/assets/img/css.png" alt="icon" /></div>
-                                <div><img src="/assets/img/php.png" alt="icon" /></div>
+                    {click === "skills" ?
+                        <div>
+                            <div className={Style.divconteudo}>
+                                <div>Developer</div>
+                                -
+                                <div className={Style.divimgicons}>
+                                    <div><img src="/assets/img/react.png" alt="icon" /></div>
+                                    <div><img src="/assets/img/js.png" alt="icon" /></div>
+                                    <div><img src="/assets/img/html.png" alt="icon" /></div>
+                                    <div><img src="/assets/img/css.png" alt="icon" /></div>
+                                    <div><img src="/assets/img/php.png" alt="icon" /></div>
+                                    <div><img src="/assets/img/c.png" alt="icon" /></div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    : <></>}
+                        : <></>}
 
 
-                {click === "credentials" ? <div>
-                    <div className={Style.divconteudo}>
-                        <p>Undergraduate</p>
-                        -
-                        <h3>Computer Science</h3>
+                    {click === "credentials" ? <div>
+                        <div className={Style.divconteudo}>
+                            <p>Undergraduate</p>
+                            -
+                            <h3>Computer Science</h3>
+                        </div>
+                        <div className={Style.divconteudo}>
+                            <p>Completed courses</p>
+                            -
+                            <a target="_blank" href="https://cursos.alura.com.br/user/marciom1martins635/fullCertificate/ec4a9e4212cf8ec94ce64ff1cee49545">click me <img src="/assets/img/doc.png" alt="doc img" /></a>
+                        </div>
                     </div>
-                    <div className={Style.divconteudo}>
-                        <p>Completed courses</p>
-                        -
-                        <a target="_blank" href="https://cursos.alura.com.br/user/marciom1martins635/fullCertificate/ec4a9e4212cf8ec94ce64ff1cee49545">click me <img src="/assets/img/doc.png" alt="doc img" /></a>
-                    </div>
+                        : <></>}
+
+                    {click === "experiences" ?
+                        <div>
+                            <div className={Style.divconteudo}>
+                                <p>Projects</p>
+                                -
+                                <p>
+                                    My experience so far is centered on personal projects.
+                                </p>
+                            </div>
+                            <div className={Style.divconteudo}>
+                                <p>Explore</p>
+                                -
+                                <a href="github.com/marciomartins12">click me<img src="/assets/img/github.png" alt="github img" /></a>
+                            </div>
+                        </div>
+                        : <></>}
+
                 </div>
-                    : <></>}
-
-                {click === "experiences" ?
-                    <div>
-                        <div className={Style.divconteudo}>
-                            <p>Projects</p>
-                            -
-                            <p>
-                                My experience so far is centered on personal projects.
-                            </p>
-                        </div>
-                        <div className={Style.divconteudo}>
-                            <p>Explore</p>
-                            -
-                            <a href="github.com/marciomartins12">click me<img src="/assets/img/github.png" alt="github img" /></a>
-                        </div>
-                    </div>
-                    : <></>}
-
 
             </div>
         </section>

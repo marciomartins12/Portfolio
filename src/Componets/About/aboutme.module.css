@@ -2,15 +2,18 @@
     width: 80%;
     display: grid;
     grid-template-columns: 50% 50%;
-    margin: 12em auto 0 auto;
+    margin: 0 auto;
     font-family: var(--font-family);
 }
 
 .describle {
     width: 70%;
-    margin-top: 5em;
+    font-size: 1.5em;
     margin-bottom: 1em;
     line-height: 30px;
+}
+.describle span{
+    color: #cc313c;
 }
 
 .containercountandtext {
@@ -44,16 +47,24 @@
     margin-bottom: 2em;
 }
 
-.nav button {
+.navbutton {
     color: #fff;
     font-size: 1.3em;
     font-weight: 700;
     background-color: #00000000;
     border: none;
 }
+.ativo {
+    font-size: 1.3em;
+    font-weight: 700;
+    border: none;
+    color: #cc313c;
+    background-color: #00000000;
+  }
 
-.nav button:hover {
+.navbutton:hover {
     cursor: pointer;
+    color: #cc313c;
 }
 
 .divconteudo {
@@ -92,9 +103,3 @@
     width: 24px;
     height: auto;
 }
-.ativo {
-    /* Adicione seus estilos para a classe "ativo" aqui */
-    background-color: #007bff; /* Exemplo de cor de fundo */
-    color: #ffffff; /* Exemplo de cor do texto */
-    /* Adicione outros estilos conforme necessário */
-  }

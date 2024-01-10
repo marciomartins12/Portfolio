@@ -4,7 +4,7 @@ import Style from './aboutme.module.css';
 const About = () => {
     const [click, setclick] = useState("skills")
     const handleclick = (text) => {
-        setclick(text)
+        setclick(text);
     };
     const [count0to1, setCount0to1] = useState(0);
     const [count0to12, setCount0to12] = useState(0);
@@ -27,7 +27,7 @@ const About = () => {
     return (
         <section className={Style.container}>
             <div>
-                <p className={Style.describle}>Hi, I'm Marcio José Martins Câmara, I'm 21 years old and I live in São Luís. I'm studying Computer Science and I love programming. I'm always learning something new and applying my knowledge to interesting projects. I'm passionate about the world of technology and I can't wait to see what the future holds
+                <p className={Style.describle}>Hi, I'm <span> Marcio José Martins Câmara</span>, I'm 21 years old and I live in São Luís. I'm studying Computer Science and I love programming. I'm always learning something new and applying my knowledge to interesting projects. I'm passionate about the world of technology and I can't wait to see what the future holds
                 </p>
                 <div className={Style.containercountandtext}>
                     <div className={Style.countandtext}>
@@ -42,10 +42,12 @@ const About = () => {
             </div>
             <div>
                 <nav className={Style.nav}>
-                    <button className={click === "skills" ? Style.ativo : ""} onClick={() => handleclick("skills")}>Skills</button>
-                    <button className={click === "credentials" ? Style.ativo : ""} onClick={() => handleclick("credentials")}>Credentials</button>
-                    <button className={click === "experiences" ? Style.ativo : ""} onClick={() => handleclick("experiences")}>Expereinces</button>
+                    <button className={click === "skills" ? Style.ativo : Style.navbutton} onClick={() => handleclick("skills")}>Skills</button>
+                    <button className={click === "credentials" ? Style.ativo : Style.navbutton} onClick={() => handleclick("credentials")}>Credentials</button>
+                    <button className={click === "experiences" ? Style.ativo : Style.navbutton} onClick={() => handleclick("experiences")}>Expereinces</button>
                 </nav>
+
+
                 {click === "skills" ?
                     <div>
                         <div className={Style.divconteudo}>

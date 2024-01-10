@@ -1,64 +1,100 @@
-.container{
+.container {
     width: 80%;
     display: grid;
     grid-template-columns: 50% 50%;
-    margin: 0 auto;
-    align-items: center;
+    margin: 12em auto 0 auto;
     font-family: var(--font-family);
 }
-.describle{
+
+.describle {
     width: 70%;
     margin-top: 5em;
     margin-bottom: 1em;
     line-height: 30px;
 }
-.containercountandtext{
-   
+
+.containercountandtext {
+
     justify-content: space-around;
     display: flex;
     align-items: center;
     width: 40%;
 }
-.countandtext{
+
+.countandtext {
     display: flex;
     flex-direction: column;
 }
-.countandtext h3{
+
+.countandtext h3 {
     font-size: 2em;
-    font-weight:700;
+    font-weight: 700;
     color: #cc313c;
 }
-.countandtext p{
+
+.countandtext p {
     width: 50%;
 }
-.nav{
+
+.nav {
     width: 80%;
     display: flex;
     margin: 0 auto;
     justify-content: space-around;
     margin-bottom: 2em;
 }
-.nav button{
+
+.nav button {
     color: #fff;
     font-size: 1.3em;
     font-weight: 700;
     background-color: #00000000;
-    border: none;   
+    border: none;
 }
-.nav button:hover{
+
+.nav button:hover {
     cursor: pointer;
 }
-.divconteudo{
+
+.divconteudo {
     display: flex;
     gap: 2em;
     align-items: center;
+    margin-bottom: 1em;
 }
-.divimgicons{
+
+.divimgicons {
     display: flex;
     align-items: center;
     gap: .55em;
 }
-.divimgicons img{
+
+.divimgicons img {
     width: 36px;
-    height:auto;
+    height: auto;
 }
+
+.divconteudo a {
+    background-color: var(--color-secondary);
+    color: white;
+    text-decoration: none;
+    padding: 1em;
+    border-radius: 1em;
+    gap: 4px;
+    display: flex;
+    align-items: center;
+}
+.divconteudo a:hover{
+    background-color: #cc313c;
+}
+
+.divconteudo a img {
+    width: 24px;
+    height: auto;
+}
+.ativo {
+    /* Adicione seus estilos para a classe "ativo" aqui */
+    background-color: #007bff; /* Exemplo de cor de fundo */
+    color: #ffffff; /* Exemplo de cor do texto */
+    /* Adicione outros estilos conforme necessário */
+  }

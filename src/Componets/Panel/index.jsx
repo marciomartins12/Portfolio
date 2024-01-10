@@ -14,38 +14,40 @@ const Panel = () => {
     return (
         <div className={Style.container}>
             <Link to='/'>
-                <div>
+                <div className={Style.divicon}>
                     {pathCurrent === "/" ?
                         <img src="/assets/img/homeenable.png" alt="home enable" /> :
                         <img src="/assets/img/home.png" alt="home" />
                     }
-
+                    <p>Home</p>
                 </div>
             </Link>
             <Link to='/aboutme'>
-                <div>
+                <div className={Style.divicon}>
                     {pathCurrent === "/aboutme" ?
 
                         <img src="/assets/img/aboutmeenable.png" alt="about enable" /> :
                         <img src="/assets/img/aboutme.png" alt="about" />
                     }
+                    <p>About me</p>
                 </div>
             </Link>
             <Link to='/projects'>
-                <div>
+                <div className={Style.divicon}>
                     {pathCurrent === "/projects" ?
                         <img src="/assets/img/projectenable.png" alt="project enable" /> :
                         <img src="/assets/img/project.png" alt="projects" />
                     }
+                    <p>Projects</p>
                 </div>
             </Link>
             <Link to='/contacts'>
-                <div>
+                <div className={Style.divicon}>
                     {pathCurrent === "/contacts" ?
                         <img src="/assets/img/talkmeenable.png" alt="talk me enable" /> :
                         <img src="/assets/img/talkme.png" alt="talkme" />
                     }
-
+                    <p>Contacts</p>
                 </div>
             </Link>
         </div>

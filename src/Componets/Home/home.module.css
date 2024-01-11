@@ -53,7 +53,7 @@
     position: absolute;
 }
 
-.btn {
+.btn{
     box-shadow: rgba(106, 106, 211, 0.543) 0px 7px 29px 0px;
     width: 180px;
     height: 60px;
@@ -145,8 +145,12 @@ svg {
         margin-top: 1em;
         width:100%;
     }
-    .containerbtn{
-       margin: 9em 0 0 5em;
+    
+    .center{
+        position: fixed;
+        top: 65%;
+        left: 50%;
+        transform: translateX(-50%);
     }
     
 }

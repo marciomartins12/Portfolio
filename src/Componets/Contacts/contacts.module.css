@@ -1,28 +1,33 @@
-.cont{
+.cont {
     width: 80%;
     margin: 0 auto;
 }
-.cont h2{
+
+.cont h2 {
     align-items: center;
     text-align: center;
     font-size: 3em;
     font-weight: 700;
 }
-.cont h2 span{
+
+.cont h2 span {
     color: #cc313c;
 }
-.containercontacts{
+
+.containercontacts {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
+    
+    margin: 1em auto 0 auto;
 }
-.containerinputs{
+
+.containerinputs {
     display: flex;
     flex-direction: column;
     gap: 1em;
 }
-.containercontacts button{
+
+.containercontacts button {
     margin-top: .48em;
     border: none;
     color: white;
@@ -32,12 +37,13 @@
     font-weight: 700;
     border-radius: .2em;
 }
-.containercontacts  button:hover{
+
+.containercontacts button:hover {
     cursor: pointer;
     background-color: #cc313c;
-  }
+}
 
-.containerinputs input{
+.containerinputs input {
     padding: .78em 0;
     display: inline-block;
     width: 60%;
@@ -47,21 +53,53 @@
     color: white;
     border-radius: .48em;
 }
-.containerinputs input::placeholder{
+
+.containerinputs input::placeholder {
     font-size: 1.5em;
-    text-align:start ;
+    text-align: start;
     color: white;
 }
+
 .textarea {
     border-radius: .48em;
     width: 600px;
     height: 200px;
-    resize: none; 
-    padding: 10px; 
+    resize: none;
+    padding: 10px;
     background-color: var(--color-secondary);
     font-size: 1.5em;
     color: white;
     border: none;
-  }
+}
 
- 
+
+.containerpart1 {
+    width: 100%;
+}
+
+.containerpart2 {
+    width: 80%;
+    
+}
+.containerpart2 h3{
+    margin-top: 4em;
+    font-size:1.2em;
+    margin-bottom: 1em;
+    font-weight: 700;
+}
+.containerpart2 h4{
+    margin-top: 1em;
+    font-weight: 700;
+    font-size:1.2em;
+    margin-bottom: 1em;
+
+}
+.containerpart2 p{
+    margin-bottom: .60em;
+    font-size: .78em;
+}
+.divnetworks{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}

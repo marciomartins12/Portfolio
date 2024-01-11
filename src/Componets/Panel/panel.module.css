@@ -1,42 +1,38 @@
-.container{
-    position: fixed;
+.container {
     display: flex;
-    align-items: center;
     flex-direction: column;
-    justify-content: space-between;
-    gap: 50px;
+   align-items: center;
+    position: fixed;
+    justify-content: center;
     background-color: var(--color-secondary);
     right: 40px;
-    padding: 1.5em .75em;
+    gap: 40px;
+    padding: 1.5em .48em;
     border-radius: 1em;
-    top: 320px
-} 
-.container img{
-    width: 38px;
-    height:auto;
+    top: 50%; 
+    transform: translateY(-50%); 
 }
-.container img:hover{
+
+.container img {
+    width: 50px;
+    height: auto;
+}
+
+.container img:hover {
     cursor: pointer;
 }
 
 .container a {
     text-decoration: none;
 }
-.message{
-    color: #000000;
-    position: absolute;
-    left: -80px;
-    background-color: var(--color-secondary);
-    border: none;
-    padding: 1em;
-    display: none;
+
+
+.divicon {
+    position: relative;
 }
 
-.divicon{
-    position:relative;
-}
-.divicon p{
-    z-index: 0;
+.divicon p {
+    display: none;
     opacity: 0;
     position: absolute;
     left: -80px;
@@ -48,7 +44,9 @@
     -webkit-border-radius: 76px 0px 77px 77px;
     -moz-border-radius: 76px 0px 77px 77px;
 }
-.divicon:hover p{
+
+.divicon:hover p {
+    display: block;
     transition: opacity .8s;
     opacity: 1;
 }

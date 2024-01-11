@@ -1,0 +1,9 @@
+.divtransition{
+position: fixed;
+top: 0;
+bottom: 0;
+right: 100%;
+width: 100%;
+background-color: #fff;
+z-index: 99999;
+}

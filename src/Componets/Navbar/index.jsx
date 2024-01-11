@@ -3,7 +3,7 @@ import Style from "./navbar.module.css";
 const NavBar = () => {
     return (
         <nav className={Style.navBar}>
-            <h1>Márcio <span>Martins.</span></h1>
+            <h1>Márcio Martins.</h1>
             <div>
                 <img src="/assets/img/instagram.png" alt="logo instagram" />
                 <img src="/assets/img/facebook.png" alt="logo facebook" />

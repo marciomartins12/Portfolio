@@ -46,4 +46,8 @@
     .navBar h1{
         font-size: 1em;
     }
+    .navBar img{
+        width: 20px;
+        height:auto;
+    }
 }

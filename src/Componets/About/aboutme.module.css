@@ -164,6 +164,7 @@ a,
     .containercountandtext{
         text-align: center;
         margin: 0 auto;
+        width: 80%;
     }
     .countandtext{
         align-items: center;
@@ -171,4 +172,29 @@ a,
     .twocontainer{
         width: 90%;
     }
+}
+@media screen and (max-width:530px) {
+    .firstcontainer h2{
+        font-size:1.5em;
+    }
+    .describle{
+        text-align: justify;
+        width: 90%;
+        font-size: .78em;
+        margin: 0 auto .80em auto;
+    }
+   
+    .countandtext h3{
+        font-size: 2em;
+    }
+    .containercountandtext{
+        align-items: center;
+        
+    }
+}
+@media screen and (max-width:445px) {
+
+.twocontainer button{
+font-size: 1em;
+}
 }

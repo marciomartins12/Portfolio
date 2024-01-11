@@ -1,9 +1,8 @@
-
 import Style from "./projects.module.css";
 
 const Projects = () => {
     return (
-        <section className={Style.container}>
+        <section className={Style.containerproject}>
             <div>
                 <h2>My projects
                     <span>.</span>
@@ -13,7 +12,7 @@ const Projects = () => {
             </div>
             <div>
                 <div className={Style.divimg}>
-                    <div className={Style.containerImgs}>
+                    <div className={Style.containerprojectImgs}>
                         <div className={Style.div}>
                             <img src="/assets/imgProjects/alurabooks.png" alt="alura books img" />
                             <div className={Style.title}>
@@ -27,7 +26,7 @@ const Projects = () => {
                             </div>
                         </div>
                     </div>
-                    <div className={Style.containerImgs}>
+                    <div className={Style.containerprojectImgs}>
                         <div className={Style.div}>
                             <img src="/assets/imgProjects/fraudebank.png" alt="fraude bank img" />
                             <div className={Style.title}>

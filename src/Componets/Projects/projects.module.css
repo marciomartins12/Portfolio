@@ -1,4 +1,4 @@
-.container {
+.containerproject {
     width: 80%;
     height: 100%;
     margin: 0 auto;
@@ -15,17 +15,17 @@
 .description span{
     color: #cc313c;
 }
-.container div h2 {
+.containerproject div h2 {
     font-weight: 700;
     font-size: 4em;
     margin-bottom: .70em;
 }
 
-.container div h2 span {
+.containerproject div h2 span {
     color: #cc313c;
 }
 
-.containerImgs {
+.containerprojectImgs {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -105,4 +105,61 @@
     
     width:36px;
     height:auto;
+}
+@media screen and (max-width:1468px) {
+    .divimg img{
+        width: 350px;
+        height:auto;
+    }
+    .button img{
+        width: 32px;
+        height:auto;
+    }
+}
+@media screen and (max-width: 1288px) {
+    .containerproject{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+    .containerproject .description{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .divimg img{
+        width: 300px;
+        height: auto;
+    }
+    .button img{
+        width: 32px;
+        height:auto;
+    }
+}
+@media screen  and (max-width:645px){
+    .divimg img{
+        width: 250px;
+        height:auto;
+    }
+    .button img{
+        width: 32px;
+        height:auto;
+    }
+}
+@media screen and (max-width: 645px){
+    .containerproject{
+        width: 100%;
+    }
+    .containerproject div h2{
+        font-size: 3em;
+        width: 100%;
+    }
+    .divimg img{
+        width: 180px;
+        height:auto;
+    }
+    .button img{
+        width: 24px;
+        height:auto;
+    }
 }

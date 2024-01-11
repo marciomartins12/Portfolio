@@ -4,7 +4,7 @@ import Part from "../Particles";
 const Home = () => {
     return (
 
-        <section className={Style.container}>
+        <section className={Style.containerhome}>
             <div>
                 <h2>I am a Developer web.</h2>
                 <p>I build <span className={Style.span}>things for web.</span></p>

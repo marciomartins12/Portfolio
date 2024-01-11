@@ -1,4 +1,4 @@
-.container{
+.containerhome{
     width: 80%;
     height: 100%;
     margin: 0 auto;
@@ -6,16 +6,16 @@
     justify-content: space-between;
     align-items: center;
 }
-.container img{
+.containerhome img{
     width: 500px;
     right:auto;
-    align-items: center;
+   
 }
-.container div h2{
+.containerhome div h2{
     font-size: 3.80em;
     font-weight: 700;
 }
-.container div p{
+.containerhome div p{
     margin-top: .50em;
     font-weight: 700;
     font-size: 3em;

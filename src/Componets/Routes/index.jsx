@@ -4,7 +4,7 @@ import Home from '../Home'
 import Projects from '../Projects'
 import Contacts from '../Contacts'
 import About from '../About'
-import { AnimatePresence, motion } from "framer-motion"
+import { AnimatePresence } from "framer-motion"
 import Transition from "../Transition"
 const RoutesAnimated = () => {
     const location = useLocation();
@@ -18,7 +18,7 @@ const RoutesAnimated = () => {
                     <Route path="contacts" element={<Contacts />} />
                 </Route>
             </Routes>
-       <Transition/>
+            <Transition />
         </AnimatePresence>
     );
 };

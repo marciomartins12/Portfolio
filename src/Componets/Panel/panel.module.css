@@ -67,6 +67,7 @@
         flex-direction: row;
         transform: translateX(-50%);
         border-radius: 1em 1em 0 0;
+        background-color: rgba(0, 0, 255, 0.068);
     }
 
 }

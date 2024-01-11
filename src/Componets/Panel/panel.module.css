@@ -57,7 +57,7 @@
 }
 
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1206px) {
     .containerpanel {
         bottom: 0;
         justify-content: space-around;

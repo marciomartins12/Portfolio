@@ -15,7 +15,7 @@
 
 .describle {
     width: 80%;
-    font-size: 1.5em;
+    font-size: 1.15em;
     margin-bottom: 1em;
     line-height: 30px;
 }
@@ -57,7 +57,7 @@
     border-radius: 0px 0px .48em .48em;
     -webkit-border-radius: 0px 0px .48em .48em;
     -moz-border-radius: 0px 0px .48em .48em;
-    background-color: #cc313b0b;
+    background-color: #4f008819;
 }
 
 .nav {
@@ -65,7 +65,7 @@
     display: flex;
     margin: 0 auto;
     justify-content: space-around;
-    background-color: var(--color-secondary);
+    background-color: #74acff19;
     padding: .75em 0;
     border-radius: .48em .48em 0 0;
 

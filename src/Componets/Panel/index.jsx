@@ -12,7 +12,7 @@ const Panel = () => {
 
 
     return (
-        <div className={Style.container}>
+        <div className={Style.containerpanel}>
             <Link div className={Style.divicon} to='/'>
 
                 {pathCurrent === "/" ?

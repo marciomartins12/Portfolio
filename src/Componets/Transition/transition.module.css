@@ -6,6 +6,6 @@ right: 100%;
 width: 100%;
 z-index: 99999;
 background-color: rgb(0, 0, 31);
-transition: opacity 0.5s;
-opacity: .76;
+transition: opacity 0.78s;
+opacity: .80;
 }

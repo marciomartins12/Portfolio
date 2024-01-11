@@ -19,9 +19,12 @@
     margin-bottom: 1em;
     line-height: 30px;
 }
+.describle span, .firstcontainer h2 span{
+
+    color: #cc313c;
+}
 
 .firstcontainer h2 {
-    color: #cc313c;
     font-size: 2.5em;
     margin-bottom: .48em;
 }

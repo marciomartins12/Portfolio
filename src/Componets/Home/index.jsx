@@ -10,7 +10,7 @@ const Home = () => {
                 <p>I build <span className={Style.span}>things for web.</span></p>
                 <div className={Style.descricao}>
                     <span>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero impedit quod expedita!
+                    Web developer specialized in creating online experiences. Let's build something amazing
                     </span>
                 </div>
 

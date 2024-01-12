@@ -59,6 +59,7 @@ const About = () => {
                                     <div><img src="/assets/img/react.png" alt="icon" /></div>
                                     <div><img src="/assets/img/js.png" alt="icon" /></div>
                                     <div><img src="/assets/img/html.png" alt="icon" /></div>
+                                    <div><img src="/assets/img/sql.png" alt="icon" /></div>
                                     <div><img src="/assets/img/css.png" alt="icon" /></div>
                                     <div><img src="/assets/img/php.png" alt="icon" /></div>
                                     <div><img src="/assets/img/c.png" alt="icon" /></div>

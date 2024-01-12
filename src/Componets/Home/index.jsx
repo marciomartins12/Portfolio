@@ -14,7 +14,7 @@ const Home = () => {
                     </span>
                 </div>
 
-                <Link to="/aboutme" className={Style.containerbtn}>
+                <Link to="/projects" className={Style.containerbtn}>
                     <div className={Style.center}>
                         <button className={Style.btn}>
                             <svg width="180px" height="60px" viewBox="0 0 180 60" className={Style.border}>

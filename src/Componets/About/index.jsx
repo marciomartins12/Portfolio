@@ -80,6 +80,11 @@ const About = () => {
                             <p>-</p>
                             <a target="_blank" href="https://cursos.alura.com.br/user/marciom1martins635/fullCertificate/ec4a9e4212cf8ec94ce64ff1cee49545">click me <img src="/assets/img/doc.png" alt="doc img" /></a>
                         </div>
+                        <div className={Style.divconteudo}>
+                            <p>CV</p>
+                            <p>-</p>
+                            <a target="_blank" href="#">click me <img src="/assets/img/doc.png" alt="doc img" /></a>
+                        </div>
                     </div>
                         : <></>}
 

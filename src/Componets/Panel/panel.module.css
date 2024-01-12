@@ -4,7 +4,7 @@
     align-items: center;
     position: fixed;
     justify-content: center;
-    background-color: var(--color-secondary);
+    background-color: #ffffff17;
     right: 40px;
     gap: 40px;
     padding: 1.7em .78em;
@@ -67,7 +67,7 @@
         flex-direction: row;
         transform: translateX(-50%);
         border-radius: 1em 1em 0 0;
-        background-color: rgba(0, 0, 255, 0.068);
+       
     }
 }
 @media screen and (max-width:530px) {

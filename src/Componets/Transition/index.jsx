@@ -20,16 +20,16 @@ const Transition = () => {
     };
     return (
         <>
-            <motion.div className={Style.divtransition}
-                variants={transitionVariants} initial='initial' animate='animate' exit='exit' transition={{ delay: 0.6, duration: 1, ease: "easeInOut" }}
+            <motion.div className={`${Style.divtransition} ${Style.animate1}`}
+                variants={transitionVariants} initial='initial' animate='animate' exit='exit' transition={{ delay: 0.4, duration: 1.8, ease: "easeInOut" }}
             ></motion.div>
 
-            <motion.div className={Style.divtransition}
-                variants={transitionVariants} initial='initial' animate='animate' exit='exit' transition={{ delay: 0.4, duration: 0.6, ease: "easeInOut" }}
+            <motion.div className={`${Style.divtransition} ${Style.animate2}`}
+                variants={transitionVariants} initial='initial' animate='animate' exit='exit' transition={{ delay: 0.3, duration: 0.9, ease: "easeInOut" }}
             ></motion.div>
 
-            <motion.div className={Style.divtransition}
-                variants={transitionVariants} initial='initial' animate='animate' exit='exit' transition={{ delay: 0.2, duration: 0.3, ease: "easeInOut" }}
+            <motion.div className={`${Style.divtransition} ${Style.animate3}`}
+                variants={transitionVariants} initial='initial' animate='animate' exit='exit' transition={{ delay: 0.2, duration: 0.4, ease: "easeInOut" }}
             ></motion.div>
 
         </>

@@ -16,6 +16,7 @@ const RoutesAnimated = () => {
                     <Route path="aboutme" element={<About />} />
                     <Route path="projects" element={<Projects />} />
                     <Route path="contacts" element={<Contacts />} />
+                    <Route path="/*" element={<>Page not found</>}/>
                 </Route>
             </Routes>
             <Transition />

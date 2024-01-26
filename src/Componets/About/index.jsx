@@ -27,12 +27,12 @@ const About = () => {
     return (
         <section className={Style.containerabout}>
             <div className={Style.firstcontainer}>
-                <h2>I<span>'</span>m Marcio José Martins Câmara<span>.</span></h2>
-                <p className={Style.describle}>I<span>'</span>m <span>21 years</span> old and I live in São Luís. I<span>'</span>m studying <span>Computer Science</span> and I <span>love</span> programming. I'm always learning something new and applying my knowledge to interesting projects. I'm passionate about the world of <span>technology</span> and I can't wait to see what the future holds<span>.</span>
+                <h2>I<span>'</span>m Marcio Martins<span>.</span></h2>
+                <p className={Style.describle}>I'm 21 years old and I live in São Luís. I'm studying Computer Science and I love programming. I'm always learning something new and applying my knowledge to interesting projects. I'm passionate about the world of technology and I can't wait to see what the future holds<span>.</span>
                 </p>
                 <div className={Style.containercountandtext}>
                     <div className={Style.countandtext}>
-                        <h3>{count0to1}</h3>
+                        <h3>{count0to1}+</h3>
                         <p>year of experiences</p>
                     </div>
                     <div className={Style.countandtext}>

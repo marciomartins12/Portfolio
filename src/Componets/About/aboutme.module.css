@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
 .containerabout {
     width: 80%;
     height: 100%;
@@ -6,6 +8,8 @@
     margin: 0 auto;
     align-items: center;
     font-family: var(--font-family);
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
 }
 
 .firstcontainer {
@@ -19,7 +23,9 @@
     margin-bottom: 1em;
     line-height: 30px;
 }
-.describle span, .firstcontainer h2 span{
+
+.describle span,
+.firstcontainer h2 span {
 
     color: #cc313c;
 }
@@ -137,13 +143,15 @@ a,
     width: 24px;
     height: auto;
 }
-@media  screen and (max-width: 1126px) {
-    .firstcontainer{
+
+@media screen and (max-width: 1126px) {
+    .firstcontainer {
         margin-top: 1em;
     }
 }
-@media screen and (max-width: 880px){
-    .containerabout{
+
+@media screen and (max-width: 880px) {
+    .containerabout {
         gap: 20px;
         width: 100%;
         margin-top: 0;
@@ -152,49 +160,60 @@ a,
         align-items: center;
         text-align: center;
     }
-    .firstcontainer h2{
-        font-size:2em;
+
+    .firstcontainer h2 {
+        font-size: 2em;
     }
-    .describle{
-        text-align: justify;
+
+    .describle {
         width: 90%;
         font-size: 1em;
         margin: 0 auto 1em auto;
     }
-    .containercountandtext{
+
+    .containercountandtext {
         text-align: center;
         margin: 0 auto;
         width: 80%;
     }
-    .countandtext{
+
+    .countandtext {
         align-items: center;
     }
-    .twocontainer{
+
+    .twocontainer {
         width: 90%;
     }
 }
+
 @media screen and (max-width:530px) {
-    .firstcontainer h2{
-        font-size:1.5em;
+    .firstcontainer h2 {
+        font-size: 1.5em;
     }
-    .describle{
+
+    .describle {
         text-align: justify;
         width: 90%;
         font-size: .78em;
         margin: 0 auto .80em auto;
     }
-   
-    .countandtext h3{
+
+    .countandtext h3 {
         font-size: 2em;
     }
-    .containercountandtext{
+
+    .containercountandtext {
         align-items: center;
-        
+    
+    }
+    .countandtext h3{
+        font-size: 3em;
     }
 }
-@media screen and (max-width:445px) {
 
-.twocontainer button{
-font-size: 1em;
-}
+@media screen and (max-width:445px) {
+    .twocontainer button {
+
+        font-size: 1em;
+    }
 }

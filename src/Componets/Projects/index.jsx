@@ -43,7 +43,7 @@ const Projects = () => {
                     </div>
                     <div className={Style.buttondiv}>
                         <button className={Style.button}><img src="/assets/img/buttonenable.png" alt="button enable" /></button>
-                        <button className={Style.button}><img src="/assets/img/button.png" alt="button enable" /></button>
+                        {/* <button className={Style.button}><img src="/assets/img/button.png" alt="button enable" /></button> */}
                     </div>
 
                 </div>

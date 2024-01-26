@@ -47,8 +47,8 @@ const Part = () => {
             quantity: 4,
           },
           repulse: {
-            distance:150,
-            duration: 0.4,
+            distance:100,
+            duration: 0.8,
           },
         },
       },
@@ -77,7 +77,7 @@ const Part = () => {
           density: {
             enable: true,
           },
-          value: 62,
+          value: 100,
         },
         opacity: {
           value: 0.5,

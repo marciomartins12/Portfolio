@@ -58,6 +58,7 @@ const About = () => {
                                 <div className={Style.divimgicons}>
                                     <div><img src="/assets/img/react.png" alt="icon" /></div>
                                     <div><img src="/assets/img/js.png" alt="icon" /></div>
+                                    <div><img src="/assets/img/python.png" alt="icon" /></div>
                                     <div><img src="/assets/img/html.png" alt="icon" /></div>
                                     <div><img src="/assets/img/sql.png" alt="icon" /></div>
                                     <div><img src="/assets/img/css.png" alt="icon" /></div>
